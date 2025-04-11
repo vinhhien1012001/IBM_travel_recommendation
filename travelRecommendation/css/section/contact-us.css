@@ -1,0 +1,115 @@
+.contact {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      to right,
+      rgba(2, 114, 120, 0.8),
+      rgba(0, 0, 0, 0)
+    ),
+    url("https://assets.grok.com/users/6569645e-b631-4a87-8a89-b43f0b86df76/generated/WuMrKhM7CN44hC8s/image.jpg");
+  min-height: calc(100vh - 62px);
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  padding: 0px 20px;
+  z-index: -10;
+}
+
+.contact_content {
+  margin: 0px 100px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+
+  color: white;
+  font-family: var(--poppin);
+  justify-content: center;
+
+  gap: 50px;
+}
+
+.contact_content-title {
+  margin-bottom: 30px;
+}
+
+.contact_form {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+  gap: 15px;
+}
+
+.contact_form input {
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: 1px solid white;
+}
+
+.contact_form input::placeholder {
+  color: white;
+}
+
+.contact_form textarea {
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  border: 1px solid white;
+}
+
+.contact_form textarea::placeholder {
+  color: white;
+}
+
+.contact_form-submit {
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.contact_form-submit:hover {
+  background-color: rgba(2, 114, 120, 0.8);
+  cursor: pointer;
+}
+/* ------------------------------------------------------------------- */
+
+.contact_social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  gap: 90px;
+}
+
+.contact_vertical_line {
+  height: 200px;
+  width: 1px;
+  border: 1.5px solid white;
+}
+
+.contact_social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.contact_social-icon {
+  color: white;
+}
+
+.contact_social-icon:hover {
+  cursor: pointer;
+}

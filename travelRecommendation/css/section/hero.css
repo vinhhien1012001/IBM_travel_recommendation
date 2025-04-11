@@ -1,0 +1,80 @@
+.hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      to right,
+      rgba(2, 114, 120, 0.8),
+      rgba(0, 0, 0, 0)
+    ),
+    url("https://assets.grok.com/users/6569645e-b631-4a87-8a89-b43f0b86df76/generated/WuMrKhM7CN44hC8s/image.jpg");
+  min-height: calc(100vh - 62px);
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  padding: 0px 20px;
+  z-index: -10;
+}
+
+.hero_content {
+  margin-left: 100px;
+  display: flex;
+  width: 33vw;
+
+  color: white;
+  font-family: var(--poppin);
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 50px;
+}
+
+.hero_content-description {
+  line-height: 28px;
+  width: 80%;
+}
+
+.hero_content-button {
+  background-color: var(--primary-color);
+  width: fit-content;
+  padding: 10px 26px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.hero_content-button:hover {
+  background-color: rgba(2, 114, 120, 0.8);
+  cursor: pointer;
+}
+
+.hero_social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 50px;
+  gap: 90px;
+}
+
+.hero_vertical_line {
+  height: 200px;
+  width: 1px;
+  border: 1.5px solid white;
+}
+
+.hero_social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.hero_social-icon {
+  color: white;
+}
+
+.hero_social-icon:hover {
+  cursor: pointer;
+}

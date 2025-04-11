@@ -1,0 +1,117 @@
+.about {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      to right,
+      rgba(2, 114, 120, 0.8),
+      rgba(0, 0, 0, 0)
+    ),
+    url("https://assets.grok.com/users/6569645e-b631-4a87-8a89-b43f0b86df76/generated/WuMrKhM7CN44hC8s/image.jpg");
+  min-height: calc(100vh - 62px);
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  padding: 0px 20px;
+  z-index: -10;
+}
+
+.about_content {
+  margin: 0px 100px;
+  display: flex;
+  flex: 1;
+
+  color: white;
+  font-family: var(--poppin);
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 50px;
+}
+
+.about_content-description {
+  line-height: 25px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+
+.about_team {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 30px;
+  margin-left: 50px;
+}
+
+.about_team h2 {
+  font-size: 50px;
+  line-height: 60px;
+  margin-right: 100px;
+}
+
+.about_team-member {
+  display: flex;
+  gap: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.about_team-member-avatar {
+  background-color: var(--primary-color);
+  height: fit-content;
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+
+.about_team-member-info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about_team .about_team-member-button {
+  background-color: var(--primary-color);
+  /* width: fit-content; */
+  padding: 10px 26px;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.about_team-member-button:hover {
+  background-color: rgba(2, 114, 120, 0.8);
+  cursor: pointer;
+}
+
+.about_social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  gap: 90px;
+}
+
+.about_vertical_line {
+  height: 200px;
+  width: 1px;
+  border: 1.5px solid white;
+}
+
+.about_social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.about_social-icon {
+  color: white;
+}
+
+.about_social-icon:hover {
+  cursor: pointer;
+}

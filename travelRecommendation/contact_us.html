@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/travel_recommendation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <title>Travel Recommendation</title>
+</head>
+<body>
+    <nav class="nav">
+        <!-- Logo section -->
+        <h2 class="nav_logo">GoTravel</h2>
+
+        <!-- Menu section -->
+        <ul class="nav_links">
+            <li><a href="./travel_recommendation.html">Home</a></li>
+            <li><a href="about_us.html">About Us</a></li>
+            <li><a href="./contact_us.html">Contact Us</a></li>
+        </ul>
+
+        <!-- Search bar -->
+         <div class="nav_search_bar none">
+             <input type="text" placeholder="Enter a destination or keyword" class="nav_search">
+             <i class="fa-solid fa-magnifying-glass"></i>
+              <button class="nav_search-buttons">Search</button>
+             <button class="nav_search-buttons">Clear</button>
+         </div>
+    </nav>
+
+    <section class="contact">
+        <div class="contact_social">
+            <div class="contact_vertical_line"></div>
+
+            <ul class="contact_social-links">
+                <li class="contact_social-icon"><i class="fa-brands fa-twitter fa-xl"></i></li>
+                <li class="contact_social-icon"><i class="fa-brands fa-facebook-f fa-xl"></i></li>
+                <li class="contact_social-icon"><i class="fa-brands fa-instagram fa-xl"></i></li>
+                <li class="contact_social-icon"><i class="fa-brands fa-youtube fa-xl"></i></li>
+            </ul>
+        </div>
+        
+        <div class="contact_content">
+            <div >
+                <h1 class="contact_content-title">CONTACT US</h1>
+                <p>Get in touch</p>
+            </div>
+
+            <form class="contact_form">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Enter your name">
+
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="Enter your email">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="8" cols="50" placeholder="Enter your message"></textarea>
+
+                <button type="submit" class="contact_form-submit">Submit</button>
+            </form>
+
+            
+        </div>
+    </section>
+</body>
+</html>
