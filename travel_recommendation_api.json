@@ -1,81 +1,50 @@
 {
-    "countries": [
-      {
-        "id": 1,
-        "name": "Australia",
-        "cities": [
-          {
-            "name": "Sydney, Australia",
-            "imageUrl": "https://assets.grok.com/users/6569645e-b631-4a87-8a89-b43f0b86df76/generated/VNYuqjlsHsp0dXDh/image.jpg",
-            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
-          },
-          {
-            "name": "Melbourne, Australia",
-            "imageUrl": "https://assets.grok.com/users/6569645e-b631-4a87-8a89-b43f0b86df76/generated/XJv8440a1CWaJC6g/image.jpg",
-            "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Japan",
-        "cities": [
-          {
-            "name": "Tokyo, Japan",
-            "imageUrl": "https://assets.grok.com/users/6569645e-b631-4a87-8a89-b43f0b86df76/generated/ObxWb6YPMmQI2SiV/image.jpg",
-            "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
-          },
-          {
-            "name": "Kyoto, Japan",
-            "imageUrl": "https://assets.grok.com/users/6569645e-b631-4a87-8a89-b43f0b86df76/generated/vYPMFwBonWddVwwu/image.jpg",
-            "description": "Known for its historic temples, gardens, and traditional tea houses."
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Brazil",
-        "cities": [
-          {
-            "name": "Rio de Janeiro, Brazil",
-            "imageUrl": "https://assets.grok.com/users/6569645e-b631-4a87-8a89-b43f0b86df76/generated/i98jUdwIMsR6aHOF/image.jpg",
-            "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
-          },
-          {
-            "name": "São Paulo, Brazil",
-            "imageUrl": "https://assets.grok.com/users/6569645e-b631-4a87-8a89-b43f0b86df76/generated/XLhOEytLjulwZeET/image.jpg",
-            "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
-          }
-        ]
-      }
-    ],
-    "temples": [
-      {
-        "id": 1,
-        "name": "Angkor Wat, Cambodia",
-        "imageUrl": "https://assets.grok.com/users/6569645e-b631-4a87-8a89-b43f0b86df76/generated/FzI81CgPFzO92ogZ/image.jpg",
-        "description": "A UNESCO World Heritage site and the largest religious monument in the world."
-      },
-      {
-        "id": 2,
-        "name": "Taj Mahal, India",
-        "imageUrl": "https://assets.grok.com/users/6569645e-b631-4a87-8a89-b43f0b86df76/generated/pQ67vAa1Q3sX6qd7/image.jpg",
-        "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
-      }
-    ],
-    "beaches": [
-      {
-        "id": 1,
-        "name": "Bora Bora, French Polynesia",
-        "imageUrl": "https://assets.grok.com/users/6569645e-b631-4a87-8a89-b43f0b86df76/generated/DgsLPX8OCGYsDVkv/image.jpg",
-        "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
-      },
-      {
-        "id": 2,
-        "name": "Copacabana Beach, Brazil",
-        "imageUrl": "https://assets.grok.com/users/6569645e-b631-4a87-8a89-b43f0b86df76/generated/t0XMIbZqWENd7Mzs/image.jpg",
-        "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
-      }
-    ]
-  }
-  
+  "countries": [
+    {
+      "id": 1,
+      "name": "Australia",
+      "imageUrl": "./images/sydney-opera-house.jpg",
+      "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+    },
+    {
+      "id": 2,
+      "name": "Japan",
+      "imageUrl": "./images/tokyo.jpg",
+      "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
+    },
+    {
+      "id": 3,
+      "name": "Brazil",
+      "imageUrl": "./images/rio.jpg",
+      "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
+    }
+  ],
+  "temples": [
+    {
+      "id": 1,
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "./images/ankot.jpg",
+      "description": "A UNESCO World Heritage site and the largest religious monument in the world."
+    },
+    {
+      "id": 2,
+      "name": "Taj Mahal, India",
+      "imageUrl": "./images/taj.jpg",
+      "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
+    }
+  ],
+  "beaches": [
+    {
+      "id": 1,
+      "name": "Bora Bora, French Polynesia",
+      "imageUrl": "./images/bora.jpg",
+      "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
+    },
+    {
+      "id": 2,
+      "name": "Copacabana Beach, Brazil",
+      "imageUrl": "./images/beach2.jpg",
+      "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+    }
+  ]
+}
