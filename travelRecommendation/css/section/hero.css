@@ -7,7 +7,7 @@
       rgba(0, 0, 0, 0)
     ),
     url("https://assets.grok.com/users/6569645e-b631-4a87-8a89-b43f0b86df76/generated/WuMrKhM7CN44hC8s/image.jpg");
-  min-height: calc(100vh - 62px);
+  height: calc(100vh - 62px);
   background-size: cover;
   overflow: hidden;
   display: flex;
@@ -77,4 +77,58 @@
 
 .hero_social-icon:hover {
   cursor: pointer;
+}
+
+.place_results {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: auto;
+  width: 40vw;
+  scroll-behavior: smooth;
+  overflow: auto;
+  scrollbar-width: none;
+  gap: 20px;
+  z-index: 100;
+}
+
+.result-item{
+  background: white;
+  border-radius: 10px;
+}
+
+.result-item img {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.result-details {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.result-details h3{
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.result-details p {
+  color: var(--gray-100);
+}
+
+.result-details button {
+  width: fit-content;
+  background-color: var(--primary-color);
+  color: white;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+.result-error {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
 }

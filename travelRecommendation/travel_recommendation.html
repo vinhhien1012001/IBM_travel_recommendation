@@ -20,12 +20,12 @@
         </ul>
 
         <!-- Search bar -->
-         <div class="nav_search_bar">
-             <input type="text" placeholder="Enter a destination or keyword" class="nav_search">
-             <i class="fa-solid fa-magnifying-glass"></i>
-              <button class="nav_search-buttons">Search</button>
-             <button class="nav_search-buttons">Clear</button>
-         </div>
+        <form class="nav_search_bar" id="search">
+            <input type="text" id="place" name="place" placeholder="Enter a destination or keyword" class="nav_search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <button class="nav_search-buttons" type="submit">Search</button>
+            <button class="nav_search-buttons" type="submit">Clear</button>
+        </form>
     </nav>
 
     <section class="hero">
@@ -51,6 +51,12 @@
 
             <button class="hero_content-button">BOOK NOW</button>
         </div>
+
+        <div class="place_results none" id="results">
+
+        </div>
     </section>
+
+    <script src="./travel_recommendation.js"></script>
 </body>
 </html>
